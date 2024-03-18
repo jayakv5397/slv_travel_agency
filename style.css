@@ -259,15 +259,7 @@ footer{
     .nav-item > a {
         display: block;
      }
-     .carousel-control-next-icon{
-        transform: translateX(25px);
-        width: 1rem;
-     }
-
-     .carousel-control-prev-icon {
-        transform: translateX(-25px);
-        width: 1rem;
-    }
+   
 
   }
 
@@ -324,6 +316,15 @@ footer{
      .carousel-control-next {
         left: auto;
         right: 1rem;
+     }
+
+     .prev {
+        right: auto;
+        left: -5rem;
+     }
+     .next {
+        left: auto;
+        right: 13rem;
      }
 
   }

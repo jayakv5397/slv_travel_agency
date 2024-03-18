@@ -33,30 +33,32 @@
 
   
 
-<nav class="navbar navbar-expand-sm bg-light" style="padding: 1% 7%;">
-  <a class="navbar-brand" href="./index.html"><img src="./images/logos/AMIGO_LOGO_HORIZONTAL.png" width="140rem" alt="" class="logo"></a>
-  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="n_bar">
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item m-2">     </li>
-      <li class="nav-item m-2"><a href="./index.html#productive" style="text-decoration: none; color: black;">What we offer</a></li>
-      <li class="nav-item m-2"><a href="./services.html" style="text-decoration: none; color: black;">Treatments</a></li>
-      <li class="nav-item m-2"><a href="#footer" style="text-decoration: none; color: black;">Contact us</a></li>
-    </ul>
-  </div>
-</nav>
 
-
-<!-- Scrollable modal -->
-<section class="modal_form">
-  <!-- Modal -->
+  <nav class="navbar navbar-expand-sm bg-light fixed-top" style="padding: 1% 7%;">
+    <a class="navbar-brand" href="./index.html"><img src="./images/logos/slv_logo_h.png" width="140rem" alt="" class="logo"></a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="n_bar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item m-2">     </li>
+        <li class="nav-item m-3"><a href="/index.html" style="text-decoration: none; color: #2d92a9">Home</a></li>
+        <li class="nav-item m-3"><a href="/index.html#Economi" style="text-decoration: none; color: #2d92a9">Economi Car Rentals</a></li>
+        <li class="nav-item m-3"><a href="/services.html" style="text-decoration: none; color: #2d92a9">Tours N packages</a></li>
+        <li class="nav-item m-3"><a href="#footer" style="text-decoration: none; color: #2d92a9">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <!-- Scrollable modal -->
+  <section class="modal_form">
+    <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Book an Appointment</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -68,18 +70,22 @@
                   <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
                   <div class="mc-field-group"><label for="mce-LNAME">Name <span class="asterisk">*</span></label><input type="text" name="LNAME" class="required text" id="mce-LNAME" value="" required=""></div>
                   <div class="mc-field-group"><label for="mce-PHONE">Phone Number <span class="asterisk">*</span></label><input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" required="" value=""></div>
-                  <div class="mc-field-group size2of2"><label for="mce-FNAME">Branch<span class="asterisk">*</span> </label>
+                  <div class="mc-field-group size2of2"><label for="mce-FNAME">Car<span class="asterisk">*</span> </label>
                     <!-- <input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""> -->
                     <select class="form-select ps-2" type="text" name="FNAME"  id="mce-FNAME" required="">
-                      <option selected>Select branch here</option>
-                      <option value="Chanda nagar, Hyd">Chanda nagar, Hyd</option>
-                      <option value="Dhone">Dhone</option>
-                      <option value="Yemmiganur">Yemmiganur</option>
-                      <option value="Betamcherla">Betamcherla</option>
+                      <option selected>Select a car here</option>
+                      <option value="Swift(2015) Black">Swift Black</option>
+                      <option value="Swift Dzire(2019)">Swift Dzire</option>
+                      <option value="Innova Crysta">Innova Crysta</option>
+                      <option value="Ford Ecosport">Ford Ecosport</option>
+                      <option value="Ford Ecosport">Innova</option>
                     </select>
                   </div>
-                  <div class="mc-field-group"><label for="mce-VTIME">Date of Visit </label>
+                  <div class="mc-field-group size1of2"><label for="mce-VTIME">Start Date</label>
                     <input type="datetime-local" name="VTIME" class=" text" id="mce-VTIME" value="">
+                  </div>
+                  <div class="mc-field-group size1of2"><label for="mce1-VTIME">End Date</label>
+                    <input type="datetime-local" name="VTIME" class=" text" id="mce1-VTIME" value="">
                   </div>
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                   </div>
@@ -106,17 +112,17 @@
       </div>
     </div>
   </div>
-</section>
+  </section>
 
 
-<section class="services p-2 mb-3">
+<section class="services p-2 mb-3 " style="margin-top: 5%;">
 
 
   <div class="grey-bg container-fluid">
     <section id="minimal-statistics">
       <div class="row">
         <div class="col-12 text-center">
-          <h4 class="m-3">Treatments we do</h4>
+          <h4 class="m-3">Packages we offer</h4>
         </div>
       </div>
 
@@ -180,47 +186,33 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8 get-early">
-      <h1 style="color:white;">Get an appointment today</h1> 
-      <p style="color:white;">It only takes only a minute to schedule your appointment. 
+      <h1 style="color:white;">Book a vehicle today</h1> 
+      <p style="color:white;">It only takes only a minute to book your vehicle. 
         If you have any questions, our support team would be happy to help you.</p>
-      <p style="color:white;">Our Clinics are also in 
-        <button class="textButton" data-bs-toggle="modal" onclick="copylocation(1)" data-bs-target="#exampleModal">Chandanagar</button> | 
-        <button class="textButton" data-bs-toggle="modal" onclick="copylocation(2)" data-bs-target="#exampleModal">Dhone</button> | 
-        <button class="textButton" data-bs-toggle="modal" onclick="copylocation(3)" data-bs-target="#exampleModal">Yemmiganur</button> | 
-        <button class="textButton" data-bs-toggle="modal" onclick="copylocation(4)" data-bs-target="#exampleModal">Betamcherla</button>
-      </p>
     </div>
       <div class="col-md-4">
         <input class="form-control me-2 my-3 Search" type="search" placeholder="Enter your email" aria-label="Search" id="userMail">
-        <button type="button" class="btn btn-primary get fixButton" data-bs-toggle="modal" onclick="copyEmail()" data-bs-target="#exampleModal">Book an appointment</button></div>
+        <button type="button" class="btn btn-warning get fixButton" data-bs-toggle="modal" onclick="copyEmail()" data-bs-target="#exampleModal">Book a Vehicle</button></div>
     </div>
   </div>
 </section>
 
+
 <footer id="footer">
   <div class="container-fluid foot">
     <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <img width="200" class="logoBottom" src="./images/logos/AMIGO_LOGO_HORIZONTAL_WHITE.png" alt="">
+      <div class="col-lg-4 col-md-6">
+        <img width="200" class="logoBottom" src="./images/logos/slv_h_white.png" alt="">
       </div>
-      <div class="col-lg-3 col-md-6">
-        <p style="color:white;">Phone: +91-970-457-4500</p>
-        <p style="color:white;">amigodentalclinic@gmail.com</p>
+      <div class="col-lg-4 col-md-6">
+        <p style="color:white;">Phone: <br>+91-810-699-3719<br>+91-903-217-5766<br>+91-891-967-1223</p>
       </div>
-      <div class="col-lg-3 col-md-6">
-        <p style="color:white;">locate us in maps 👇</p>
-        <p style="color:white;">
-          <a target="_blank" href="https://maps.app.goo.gl/xgFCZU7zwxMPy8ZGA" style="text-decoration: none; color: #ffd625;">Chandanagar</a> | 
-          <a target="_blank" href="https://maps.app.goo.gl/xgFCZU7zwxMPy8ZGA" style="text-decoration: none; color: #ffd625;">Dhone</a> | 
-          <a target="_blank" href="https://maps.app.goo.gl/xgFCZU7zwxMPy8ZGA" style="text-decoration: none; color: #ffd625;">Yemmiganur</a> | 
-          <a target="_blank" href="https://maps.app.goo.gl/owmrvaru8imsCcTi9" style="text-decoration: none; color: #ffd625;">Betamcherla</a>
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <a href="./services.html" style="text-decoration: none;"><p style="color:white;">Treatments we do</p></a> 
+      <div class="col-lg-4 col-md-6">
+        <p style="color:white;">locate us in maps 👉🏼 &nbsp;<a target="_blank" href="https://maps.app.goo.gl/xgFCZU7zwxMPy8ZGA" style="text-decoration: none; color: #ffd625;">Tirupati</a></p>         
+        <a href="./services.html" style="text-decoration: none;"><p style="color:white;">Packages we offer</p></a> 
         <i class="fa-xl px-1 fa-brands fa-facebook white"></i>
         <i class="fa-xl px-1 fa-solid fa-envelope"></i>
-        <i class="fa-xl px-1 fa-brands fa-square-instagram"></i>        
+        <i class="fa-xl px-1 fa-brands fa-square-instagram"></i> 
       </div>
 
     </div>
@@ -260,6 +252,8 @@
       document.getElementById("mce-EMAIL").value=email;
       document.getElementById("userMail").value="";
       document.getElementById("mce-VTIME").value=setDate();
+      document.getElementById("mce1-VTIME").value=setDate();
+
     }
     function copylocation(e){
       let locate = e;
@@ -276,6 +270,8 @@
             break;
         };
         document.getElementById("mce-VTIME").value=setDate();
+        document.getElementById("mce1-VTIME").value=setDate();
+
     }
     
   </script>
