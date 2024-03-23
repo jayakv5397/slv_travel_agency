@@ -197,6 +197,11 @@ footer{
     display: block;
     }
 
+#minimal-statistics{
+    width: 70%;
+    margin: auto;
+}
+
  @media (max-width: 900px) {
     .title{
         text-align: center;
@@ -341,6 +346,11 @@ footer{
 
   @media only screen and (max-width: 767px) {
 
+    .services{
+        padding: 2%;
+        margin: 0;
+    }
+
     #map_illustration{
         display: none !important;
         
@@ -350,6 +360,11 @@ footer{
 
         padding: 2% 5%;
 
+    }
+
+
+    .get{
+        width: 100%;
     }
 
     #Economi{
@@ -375,6 +390,11 @@ footer{
               -ms-transform: translate3d(-50%,-50%,0);
                -o-transform: translate3d(-50%,-50%,0);
                   transform: translate3d(-50%,-50%,0);
+    }
+
+    #minimal-statistics{
+        width: 90%;
+        margin: auto;
     }
 
   }
